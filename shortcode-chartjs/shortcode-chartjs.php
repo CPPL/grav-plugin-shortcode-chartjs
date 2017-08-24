@@ -5,10 +5,10 @@ use Grav\Common\Plugin;
 use RocketTheme\Toolbox\Event\Event;
 
 /**
- * Class ShortcodeChartsJSPlugin
+ * Class ShortcodeChartjsPlugin
  * @package Grav\Plugin
  */
-class ShortcodeChartsJSPlugin extends Plugin
+class ShortcodeChartjsPlugin extends Plugin
 {
     /**
      * @return array
@@ -52,7 +52,7 @@ class ShortcodeChartsJSPlugin extends Plugin
     public function onPageContentRaw(Event $e)
     {
         // Get a variable from the plugin configuration
-        $text = $this->grav['config']->get('plugins.shortcode-charts-js.text_var');
+        $text = $this->grav['config']->get('plugins.shortcode-chartjs.text_var');
 
         // Get the current raw content
         $content = $e['page']->getRawContent();
