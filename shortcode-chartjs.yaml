@@ -1,1 +1,8 @@
 enabled: true
+canvas:
+  name: chart
+  width: '400'
+  height: '400'
+chart:
+  bkgndcolor: LightGray
+  bordercolor: Gray
