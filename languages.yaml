@@ -1,0 +1,14 @@
+en:
+  PLUGIN_CHARTJS_SHORTCODE:
+    CANVAS_DEFAULTS: 'Canvas Defaults'
+    CANVAS_NAME_ID: 'Canvas Name/ID'
+    CANVAS_NAME_ID_HELP: 'This value will used to as the default HTML ID for the canvas used by the charts'
+    CANVAS_WIDTH: 'Canvas Width'
+    CANVAS_WIDTH_HELP: 'This will be used as the default width of the chart.'
+    CANVAS_HEIGHT_HELP: 'This will be used as the default width of the chart.'
+    CANVAS_HEIGHT: 'Canvas Height'
+    CHART_DEFAULTS: 'Chart Defaults'
+    DEFAULT_BKGND_COLOR: 'Default Background Color'
+    DEFAULT_BKGND_COLOR_HELP: 'The default background color for data points. It can be any valid HTML5 color string, e.g. `red` or `#ff0000` or `rgb(255,0,0)` or `rgba(255,0,0, 0.5)`'
+    DEFAULT_BORDER_COLOR: 'Default Border Color'
+    DEFAULT_BORDER_COLOR_HELP: 'The default border color for data points. It can be any valid HTML5 color string, e.g. `red` or `#ff0000` or `rgb(255,0,0)` or `rgba(255,0,0, 0.5)`'

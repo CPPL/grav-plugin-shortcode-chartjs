@@ -20,11 +20,58 @@ form:
   fields:
     enabled:
       type: toggle
-      label: Plugin status
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
       highlight: 1
       default: 0
       options:
-        1: Enabled
-        0: Disabled
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
+
+    canvas:
+      type: section
+      title: PLUGIN_CHARTJS_SHORTCODE.CANVAS_DEFAULTS
+      underline: true
+      fields:
+        canvas.name:
+          type: text
+          label: PLUGIN_CHARTJS_SHORTCODE.CANVAS_NAME_ID
+          help: PLUGIN_CHARTJS_SHORTCODE.CANVAS_NAME_ID_HELP
+          default: "chart"
+          size: small
+        canvas.width:
+          type: text
+          label: PLUGIN_CHARTJS_SHORTCODE.CANVAS_WIDTH
+          help: PLUGIN_CHARTJS_SHORTCODE.CANVAS_WIDTH_HELP
+          size: small
+          default: 400
+          validate:
+            type: integer
+        canvas.height:
+          type: text
+          label: PLUGIN_CHARTJS_SHORTCODE.CANVAS_HEIGHT
+          help: PLUGIN_CHARTJS_SHORTCODE.CANVAS_HEIGHT_HELP
+          size: small
+          default: 400
+          validate:
+            type: integer
+
+    chart:
+      type: section
+      title: PLUGIN_CHARTJS_SHORTCODE.CHART_DEFAULTS
+      underline: true
+      fields:
+        chart.bkgndcolor:
+          type: text
+          label: PLUGIN_CHARTJS_SHORTCODE.DEFAULT_BKGND_COLOR
+          help: PLUGIN_CHARTJS_SHORTCODE.DEFAULT_BKGND_COLOR_HELP
+          default: 'LightGray'
+          size: small
+        chart.bordercolor:
+          type: text
+          label: PLUGIN_CHARTJS_SHORTCODE.DEFAULT_BORDER_COLOR
+          help: PLUGIN_CHARTJS_SHORTCODE.DEFAULT_BORDER_COLOR_HELP
+          default: 'Gray'
+          size: small
+
