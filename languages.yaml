@@ -2,7 +2,7 @@ en:
   PLUGIN_CHARTJS_SHORTCODE:
     CANVAS_DEFAULTS: 'Canvas Defaults'
     CANVAS_NAME_ID: 'Canvas Name/ID'
-    CANVAS_NAME_ID_HELP: 'This value will used to as the default HTML ID for the canvas used by the charts'
+    CANVAS_NAME_ID_HELP: 'This value will used to as the default HTML ID for the canvas used by the charts. NB. if you have more than one chart per page you MUST set a unique name in the shortcode options for each chart.'
     CANVAS_WIDTH: 'Canvas Width'
     CANVAS_WIDTH_HELP: 'This will be used as the default width of the chart.'
     CANVAS_HEIGHT_HELP: 'This will be used as the default width of the chart.'
