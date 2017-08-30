@@ -1,3 +1,10 @@
+# v1.0.1
+##  08/30/2017
+
+1. [](#improved)
+    * Fixed docs url
+    * Removed non-existent demo link
+
 # v1.0.0
 ##  08/30/2017
 
