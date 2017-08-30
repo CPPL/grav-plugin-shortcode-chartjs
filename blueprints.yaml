@@ -6,10 +6,9 @@ author:
   name: Craig Phillips
   email: support@craigphillips.biz
 homepage: https://github.com/cppl/grav-plugin-shortcode-chartjs
-demo: https://thesumof.it/
 keywords: grav, plugin, etc
 bugs: https://github.com/cppl/grav-plugin-shortcode-chartjs/issues
-docs: https://github.com/cppl/grav-plugin-shortcode-chartjs/blob/develop/README.md
+docs: https://github.com/cppl/grav-plugin-shortcode-chartjs/blob/master/README.md
 license: MIT
 
 dependencies:
