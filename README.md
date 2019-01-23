@@ -36,7 +36,7 @@ The plugin comes with sensible default values, but you can change them as requir
 
 ### via GPM or Manually 
 
-Before configuring this plugin, you should copy the `user/plugins/shortcode-charts-js/shortcode-chartjs.yaml` to `user/config/plugins/shortcode-chartjs.yaml` and only edit that copy.
+Before configuring this plugin, you should copy the `user/plugins/shortcode-chartsjs/shortcode-chartjs.yaml` to `user/config/plugins/shortcode-chartjs.yaml` and only edit that copy.
 
 Here is the default configuration and an explanation of available options:
 
